@@ -43,9 +43,9 @@ catkin_pip_package(pyros_msgs)
 #######
 
 if (CATKIN_ENABLE_TESTING)
-  catkin_add_pytests(pyros_msgs/typecheck/tests)
-  catkin_add_pytests(pyros_msgs/opt_as_array/tests)
-  catkin_add_pytests(pyros_msgs/opt_as_nested/tests)
+  catkin_add_pytests(tests/test_pyros_msgs/typecheck)
+  catkin_add_pytests(tests/test_pyros_msgs/opt_as_array)
+  catkin_add_pytests(tests/test_pyros_msgs/opt_as_nested)
 endif()
 
 
