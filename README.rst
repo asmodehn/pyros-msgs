@@ -15,8 +15,8 @@ ROS
 -  optional field as a ROS array
 -  optional field indicated by a specific message type
 
-.. |Build Status| image:: https://travis-ci.org/asmodehn/pyros-msgs.svg?branch=master
-   :target: https://travis-ci.org/asmodehn/pyros-msgs
+.. |Build Status| image:: https://travis-ci.org/pyros-dev/pyros-msgs.svg?branch=master
+   :target: https://travis-ci.org/pyros-dev/pyros-msgs
 
 
 Testing
