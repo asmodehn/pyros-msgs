@@ -2,7 +2,7 @@
 pytest
 pytest-xdist  # for --boxed
 hypothesis
-numpy
+numpy==1.14.0
 
 # These dependencies are python pkgs only and only for tests.
 filefinder2
