@@ -11,4 +11,4 @@ numpy==1.11.0
 
 # These dependencies are python pkgs only and only for tests.
 filefinder2
-rosimport
+rosimport==0.2.1
