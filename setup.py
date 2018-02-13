@@ -8,7 +8,7 @@ import setuptools
 import runpy
 
 # Ref : https://packaging.python.org/single_source_version/#single-sourcing-the-version
-# runpy is safer and a beter habit than exec
+# runpy is safer and a better habit than exec
 version = runpy.run_path('pyros_msgs/_version.py')
 __version__ = version.get('__version__')
 
@@ -47,7 +47,7 @@ class PrepareReleaseCommand(setuptools.Command):
         # $ gitchangelog >CHANGELOG.rst
         # change version in code and changelog
         subprocess.check_call(
-            "git commit CHANGELOG.rst pyros_msgs/typecheck/_version.py -m 'v{0}'".format(__version__), shell=True)
+            "git commit CHANGELOG.rst pyros_msgs/_version.py -m 'v{0}'".format(__version__), shell=True)
         subprocess.check_call("git push", shell=True)
 
         print("You should verify travis checks, and you can publish this release with :")
@@ -220,6 +220,8 @@ setuptools.setup(name='pyros_msgs',
         'numpy>=1.8.2',  # from trusty version
     ],
     cmdclass={
+        'prepare_release': PrepareReleaseCommand,
+        'publish': PublishCommand,
         'rosdevelop': RosDevelopCommand,
         'rospublish': ROSPublishCommand,
     },

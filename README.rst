@@ -1,4 +1,4 @@
-|Build Status|
+|Build Status| |Code Health|
 
 Pyros-msgs
 ==========
@@ -18,6 +18,9 @@ ROS
 .. |Build Status| image:: https://travis-ci.org/pyros-dev/pyros-msgs.svg?branch=master
    :target: https://travis-ci.org/pyros-dev/pyros-msgs
 
+.. |Code Health| image:: https://landscape.io/github/pyros-dev/pyros-msgs/master/landscape.svg?style=flat
+   :target: https://landscape.io/github/pyros-dev/pyros-msgs/master
+   :alt: Code Health
 
 Testing
 -------
