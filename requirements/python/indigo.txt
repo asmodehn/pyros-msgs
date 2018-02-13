@@ -1,0 +1,8 @@
+# Requirements for running a pure python setup on top of indigo
+
+# TODO : lock this on indigo
+# ros dependencies (necessary when running tests from install)
+-e git+https://github.com/asmodehn/genmsg.git@setuptools#egg=ros_genmsg
+-e git+https://github.com/asmodehn/genpy.git@setuptools#egg=ros_genpy
+
+
