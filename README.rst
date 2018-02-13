@@ -1,4 +1,4 @@
-|Build Status| |Code Health|
+|Build Status| |Code Health| |Pyup Updates| |Pyup Py3|
 
 Pyros-msgs
 ==========
@@ -21,6 +21,14 @@ ROS
 .. |Code Health| image:: https://landscape.io/github/pyros-dev/pyros-msgs/master/landscape.svg?style=flat
    :target: https://landscape.io/github/pyros-dev/pyros-msgs/master
    :alt: Code Health
+
+.. |Pyup Updates| image:: https://pyup.io/repos/github/pyros-dev/pyros-msgs/shield.svg
+     :target: https://pyup.io/repos/github/pyros-dev/pyros-msgs/
+     :alt: Updates
+
+.. |Pyup Py3| image:: https://pyup.io/repos/github/pyros-dev/pyros-msgs/python-3-shield.svg
+     :target: https://pyup.io/repos/github/pyros-dev/pyros-msgs/
+     :alt: Python 3
 
 Testing
 -------
