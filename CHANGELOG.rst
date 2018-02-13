@@ -4,6 +4,9 @@ Changelog
 
 0.2.0 (2018-02-13)
 ------------------
+- Fixing errors found by landscape.io. [AlexV]
+- Fixing release commands and adding Code Health badge. [AlexV]
+- V0.2.0. [AlexV]
 - Adding pyup config to manage dependencies. [AlexV]
 - Merge pull request #14 from pyros-dev/nested_implement. [AlexV]
 
