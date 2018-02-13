@@ -74,7 +74,7 @@ class Sanitizer(object):
         self.t = t
 
     def __call__(self, *args, **kwargs):
-        if kwargs and hasattr(self.t, __dict__): # if self.t is an (new-style) object, it specifies how to sanitize, ie it is a filter
+        if kwargs and hasattr(self.t, '__dict__'): # if self.t is an (new-style) object, it specifies how to sanitize, ie it is a filter
             # TODO : is this actually useful / used ??
             return self.t(**{
                 subk: subt.sanitizer(kwargs.get(subk))
@@ -462,7 +462,8 @@ def make_typechecker_from_prototype(inst, field_map=None):
     elif t is list and len(t) >1:
         subt = type(inst[0])  # getting the type of the first element
         return TypeChecker(Array(Sanitizer(subt)), Array(Accepter(t)))
-    elif hasattr(t, __dict__):  # composed type with dict
+    elif hasattr(t, '__dict__'):  # composed type with dict
+        # TODO : check if this is actually used or even useful
         # we need to recurse on dict keys that are not builtin
         members = {
             f: field_map(type(ft))

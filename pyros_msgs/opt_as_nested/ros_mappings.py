@@ -20,7 +20,6 @@ from pyros_msgs.typecheck import (
     six_long,
     Accepter, Sanitizer, Array, Any, MinMax, CodePoint,
     TypeChecker,
-    TypeChecker,
     typechecker_from_rosfield_type
 )
 
