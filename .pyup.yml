@@ -62,8 +62,9 @@ requirements:
       update: all
 
   - requirements/tools.txt:
-      # update all dependencies, use global 'pin' default
+      # update all dependencies, don't pin
       update: all
+      pin: False
 
 
 # TODO : review tests nd default values after ROS things are out of the python repo

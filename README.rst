@@ -17,18 +17,19 @@ ROS
 
 .. |Build Status| image:: https://travis-ci.org/pyros-dev/pyros-msgs.svg?branch=master
    :target: https://travis-ci.org/pyros-dev/pyros-msgs
+   :alt: Build Status
 
 .. |Code Health| image:: https://landscape.io/github/pyros-dev/pyros-msgs/master/landscape.svg?style=flat
    :target: https://landscape.io/github/pyros-dev/pyros-msgs/master
    :alt: Code Health
 
 .. |Pyup Updates| image:: https://pyup.io/repos/github/pyros-dev/pyros-msgs/shield.svg
-     :target: https://pyup.io/repos/github/pyros-dev/pyros-msgs/
-     :alt: Updates
+   :target: https://pyup.io/repos/github/pyros-dev/pyros-msgs/
+   :alt: Updates
 
 .. |Pyup Py3| image:: https://pyup.io/repos/github/pyros-dev/pyros-msgs/python-3-shield.svg
-     :target: https://pyup.io/repos/github/pyros-dev/pyros-msgs/
-     :alt: Python 3
+   :target: https://pyup.io/repos/github/pyros-dev/pyros-msgs/
+   :alt: Python 3
 
 Testing
 -------
