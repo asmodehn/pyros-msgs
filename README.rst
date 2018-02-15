@@ -1,10 +1,28 @@
-|Build Status| |Code Health| |Pyup Updates| |Pyup Py3|
+ |Build Status|  |Code Health|  |Pyup Updates|  |Pyup Py3|
 
 Pyros-msgs
 ==========
 
 Package enabling ROS communication for other Pyros multiprocess
 systems.
+
+
+.. |Build Status| image:: https://travis-ci.org/pyros-dev/pyros-msgs.svg?branch=master
+                  :target: https://travis-ci.org/pyros-dev/pyros-msgs
+                  :alt: Build Status
+
+.. |Code Health| image:: https://landscape.io/github/pyros-dev/pyros-msgs/master/landscape.svg?style=flat
+                 :target: https://landscape.io/github/pyros-dev/pyros-msgs/master
+                 :alt: Code Health
+
+.. |Pyup Updates| image:: https://pyup.io/repos/github/pyros-dev/pyros-msgs/shield.svg
+                  :target: https://pyup.io/repos/github/pyros-dev/pyros-msgs/
+                  :alt: Updates
+
+.. |Pyup Py3| image:: https://pyup.io/repos/github/pyros-dev/pyros-msgs/python-3-shield.svg
+              :target: https://pyup.io/repos/github/pyros-dev/pyros-msgs/
+              :alt: Python 3
+
 
 Features
 --------
@@ -15,21 +33,6 @@ ROS
 -  optional field as a ROS array
 -  optional field indicated by a specific message type
 
-.. |Build Status| image:: https://travis-ci.org/pyros-dev/pyros-msgs.svg?branch=master
-   :target: https://travis-ci.org/pyros-dev/pyros-msgs
-   :alt: Build Status
-
-.. |Code Health| image:: https://landscape.io/github/pyros-dev/pyros-msgs/master/landscape.svg?style=flat
-   :target: https://landscape.io/github/pyros-dev/pyros-msgs/master
-   :alt: Code Health
-
-.. |Pyup Updates| image:: https://pyup.io/repos/github/pyros-dev/pyros-msgs/shield.svg
-   :target: https://pyup.io/repos/github/pyros-dev/pyros-msgs/
-   :alt: Updates
-
-.. |Pyup Py3| image:: https://pyup.io/repos/github/pyros-dev/pyros-msgs/python-3-shield.svg
-   :target: https://pyup.io/repos/github/pyros-dev/pyros-msgs/
-   :alt: Python 3
 
 Testing
 -------
