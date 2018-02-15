@@ -1,4 +1,4 @@
- |Build Status|  |Code Health|  |Pyup Updates|  |Pyup Py3|
+|Build Status|  |Code Health|  |Pyup Updates|  |Pyup Py3|
 
 Pyros-msgs
 ==========
