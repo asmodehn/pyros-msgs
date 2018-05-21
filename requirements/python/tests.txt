@@ -1,7 +1,7 @@
 # latest version to validate behavior on pure python env
 pytest==3.5.1
 pytest-xdist==1.22.2  # for --boxed
-hypothesis==3.45.1
+hypothesis==3.57.0
 numpy==1.14.0
 
 # These dependencies are python pkgs only and only for tests.
