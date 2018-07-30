@@ -2,7 +2,7 @@
 pytest==3.6.4
 pytest-xdist==1.22.5  # for --boxed
 hypothesis==3.66.14
-numpy==1.14.0
+numpy==1.15.0
 
 # These dependencies are python pkgs only and only for tests.
 filefinder2==0.4.1
