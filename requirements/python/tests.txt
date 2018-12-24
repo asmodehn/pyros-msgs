@@ -5,5 +5,5 @@ hypothesis==3.84.5
 numpy==1.15.4
 
 # These dependencies are python pkgs only and only for tests.
-filefinder2==0.4.1
+filefinder2==0.5.0
 rosimport==0.2.1
